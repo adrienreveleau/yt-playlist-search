@@ -18,10 +18,13 @@
     if (modal.querySelector('.yt-playlist-search')) return;
     const header = modal.querySelector('#header');
     const input = document.createElement('input');
-    input.className = 'yt-playlist-search';
+    input.className = 'ytSearchboxComponentInput';
+    input.style.background = "transparent"
+    input.style.color = "white";
+    input.style.fontSize = "1.6rem";
     input.style.width = "100%";
-    input.style.padding = "1rem";
-    input.placeholder = 'Type something…';
+    input.style.padding = "16px 24px";
+    input.placeholder = 'Search';
     header.insertAdjacentElement('afterend', input);
     input.addEventListener('input', onSearchInput);
     input.focus();
