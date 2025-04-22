@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Playlist Search",
+  "version": "1.0",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
