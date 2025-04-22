@@ -1,5 +1,4 @@
 (() => {
-  // Fonction principale
   function initSearchInModal() {
     const observer = new MutationObserver(onDomMutated);
     observer.observe(document.body, { childList: true, subtree: true });
@@ -46,6 +45,5 @@
       });
   }
 
-  // Démarrage
   window.addEventListener('load', initSearchInModal);
 })();
