@@ -9,7 +9,6 @@ A Chrome extension that adds a search bar to YouTube’s **Add to playlist** mod
 - **Real-time filtering**: Instantly search through your playlists as you type.
 - **Preserve Watch Later**: The first item ("Watch Later") remains visible regardless of your search term.
 - **Lightweight**: Injects a simple input field without impacting page performance.
-- **Manifest V3**: Built with the latest Chrome Extension standards.
 
 ## Installation
 
